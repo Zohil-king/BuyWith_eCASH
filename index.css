@@ -1,0 +1,92 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #ffffff;
+}
+
+/* Header */
+header {
+    background-color: #20324a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Menu Bar */
+.menu-bar {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu-bar a:hover {
+    color: #1a73e8;
+}
+
+/* Main */
+main {
+    padding: 40px 20px;
+}
+
+/* About Xec Section */
+.about-xec {
+    background-color: #fff8dc;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-xec h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-xec p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.about-xec ul {
+    text-align: left;
+    margin: 0 auto 15px auto;
+    max-width: 600px;
+    color: #555;
+    font-size: 16px;
+}
+
+.about-xec ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #23354c;
+    color: white;
+    margin-top: 20px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Login</h2>
+    <form action="login.php" method="POST" onsubmit="return validateLogin()">
+      <input type="email" name="email" id="login_email" placeholder="Email" required>
+      <input type="password" name="password" id="login_password" placeholder="Password" required>
+      <button type="submit">Login</button>
+      <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </form>
+  </div>
+</body>
+</html>
